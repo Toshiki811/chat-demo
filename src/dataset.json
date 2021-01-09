@@ -1,0 +1,62 @@
+{
+  "init": {
+      "answers": [
+          {"content": "justInCaseについて", "nextId": "about_jic"},
+          {"content": "スマホ保険について", "nextId": "smartphone"},
+          {"content": "採用について", "nextId": "hiring"}
+      ],            
+      "question": "こんにちは！ご用件はなんでしょうか？"
+  },
+  "about_jic": {
+      "answers": [
+          {"content": "各種保険について", "nextId": "website"},
+          {"content": "保険APIについて", "nextId": "webapp"},
+          {"content": "その他", "nextId": "other_jobs"}
+      ],
+      "question": "どのようなサービスについてでしょうか？"
+  },
+  "website": {
+      "answers": [
+          {"content": "問い合わせる", "nextId": "contact"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "各種保険についてですね。コチラからお問い合わせできます。"
+  },
+  "webapp": {
+      "answers": [
+          {"content": "問い合わせる", "nextId": "contact"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "保険APIについてですね。コチラからお問い合わせできます。"
+  },
+  "other_jobs": {
+      "answers": [
+          {"content": "問い合わせる", "nextId": "contact"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "その他についてですね。コチラからお問い合わせできます。"
+  },
+  "smartphone": {
+      "answers": [
+          {"content": "申し込み方法をYouTubeで動画を見る", "nextId": "https://www.youtube.com/watch?v=dOrDMFvaW88"},
+          {"content": "補償について知りたい", "nextId": "insure_smph"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "YouTubeでお申し込み方法を確認できます。"
+  },
+  "insure_smph": {
+      "answers": [
+          {"content": "websiteを見る", "nextId": "https://justincase.jp/smartphone"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "websiteから確認いただけます"
+  },
+  "hiring": {
+      "answers": [
+          {"content": "採用情報について", "nextId": "https://www.notion.so/justInCase-d132db2c3b6149ef9b648b7820fe6e61"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "一緒に保険業界を変えていきましょう！"
+  }
+}
+
