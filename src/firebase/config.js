@@ -9,6 +9,4 @@ const firebaseConfig = {
   measurementId: process.env.REACT_APP_measurementId,
 };
 
-console.log(firebaseConfig)
-
 export {firebaseConfig};
